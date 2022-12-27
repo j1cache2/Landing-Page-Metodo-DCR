@@ -12,6 +12,12 @@
     src: url(../fonts/Lato-Regular.ttf);
 }
 
+@font-face {
+    font-family: 'NunitoSans-Bold';
+    font-display: swap;
+    src: url(../fonts/NunitoSans-Bold.ttf);
+}
+
 :root {
     --color0: #000;
     --color1: #fff;
@@ -38,7 +44,7 @@
     --font0: 'Arial, Verdana, Helvetica, sans-serif';
     --font1: 'Lato-Bold';
     --font2: 'Lato-Regular';
-    --font3: '';
+    --font3: 'NunitoSans-Bold';
     --font4: '';
     --font5: '';
     --font6: '';
@@ -132,7 +138,8 @@ iframe {
 .buy .container2 {
     text-align: center;
     margin: auto;
-    padding: 0px 10px;
+    /* padding: 0px 10px; */
+    padding: 25px 10px 40px 10px;
 }
 
 .buy .container2 p {
@@ -147,7 +154,7 @@ iframe {
 }
 
 .buy .container2 a {
-    font-family: var(--font1);
+    font-family: var(--font3);
     font-size: 24px;
     color: var(--color1);
     line-height: 33px;
@@ -174,8 +181,8 @@ iframe {
     width: 100%;
     max-width: 1050px;
     display: flex;
-    justify-content: space-around;
-    margin: 37px auto 0px;
+    justify-content: center;
+    margin: 53px auto 16px;
 }
 
 
@@ -186,25 +193,81 @@ iframe {
     max-width: 312px;
     height: 250px;
     background-color: var(--color1);
-    margin: 16px;
-    border-radius: 17.1453px;
+    margin: 0px 16px 0px 16px;
+    border-radius: 18px;
     padding-top: 64px;
 }
 
 .buy .container2 p.pboxes {
     font-family: var(--font1);
-    font-size: 20px;
+    font-size: 21px;
     color: var(--color0);
     line-height: 22.2px;
     width: 100%;
-    max-width: 260px;
+    max-width: 270px;
+    margin-top: 28px;
 }
 
+.calltoaction {
+    background-color: var(--color1);
+}
 
+.calltoaction .container3 {
+    margin: auto;
+    padding: 65px 10px;
+    width: 100%;
+    max-width: 680px;
+}
 
+.calltoaction .container3 p {
+    font-family: var(--font2);
+    font-size: 23px;
+    color: var(--color0);
+}
 
+.calltoaction .container3 p.firstp {
+    font-family: var(--font1);
+    color: var(--color4);
+    /* margin-top: -5px; */
+}
 
+.calltoaction .container3 ul {
+    width: 100%;
+    max-width: 600px;
+    margin: 14px auto 25px;
+}
 
+.calltoaction .container3 ul li {
+    font-family: var(--font2);
+    font-size: 19px;
+    /* color: var(--color0); */
+    line-height: 21.7px;
+    margin-left: 12px;
+}
+
+.calltoaction .container3 ul li span {
+    font-family: var(--font1);
+    /* font-size: 19px;
+    color: var(--color0);
+    line-height: 19.7px; */
+}
+
+.calltoaction .container3 ul li::marker {
+    color: #ee3636;
+}
+
+/* .calltoaction .container3 ul {
+    list-style: none;
+}
+
+.calltoaction .container3 ul li::before {
+    content: "\2022";
+    color: var(--color4);
+    font-weight: bold;
+    display: inline-block;
+    width: 8px;
+    margin-right: 12px;
+} */
 
 
 
