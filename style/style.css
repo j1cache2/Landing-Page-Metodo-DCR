@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Asap-Regular';
+    font-display: swap;
+    src: url(../fonts/Asap-Regular.ttf);
+}
+
+:root {
+    --color0: #000;
+    --color1: #fff;
+    --color2: #;
+    --color3: #;
+    --color4: #;
+    --color5: #;
+    --color6: #;
+    --color7: #;
+    --color8: #;
+    --color9: #;
+    --color10: #;
+    --color11: #;
+    --color12: #;
+    --color13: #;
+    --color14: #;
+    --color15: #;
+    --color16: #;
+    --color17: #;
+    --color18: #;
+    --color19: #;
+    --color20: #;
+
+    --fonte-padrão: 'Arial, Verdana, Helvetica, sans-serif';
+    --font1: '';
+    --font2: '';
+    --font3: '';
+    --font4: '';
+    --font5: '';
+    --font6: '';
+    --font7: '';
+    --font8: '';
+    --font9: '';
+    --font10: '';
+    --font11: '';
+    --font12: '';
+    --font13: '';
+    --font14: '';
+    --font15: '';
+    --font16: '';
+    --font17: '';
+    --font18: '';
+    --font19: '';
+    --font20: '';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    width: 100%;
+    max-width: 1366px;
+    margin: auto;
+    background-color: var(--cor1) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: var(--cor0);
+    font-family: var(--fonte3);
+    font-size: 14px;
+    color: var(--cor9);
+    height: 100%;
+    padding: 5px;
+    text-align: center;
+}
+
+footer a:hover {
+    color: var(--cor8);
+}
+
+@media(max-width: 539px) {
+    footer {
+        font-size: 10px;
+    }
+}
