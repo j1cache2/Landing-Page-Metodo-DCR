@@ -105,7 +105,7 @@
     /* outline: 1px solid red; */
     scroll-behavior: smooth;
 }
-/*ajustar para space-between/margens/largura do container em all boxes*/
+
 a {
     text-decoration: none;
     color: inherit;
@@ -209,15 +209,13 @@ iframe {
     transition: all 100ms ease-in-out;
 }
 
-
 .buy1 .container2 .boxes1 {
     width: 100%;
-    max-width: 1050px;
+    max-width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 53px auto 16px;
 }
-
 
 .buy1 .container2 .boxes1 .box1,
 .buy1 .container2 .boxes1 .box2,
@@ -226,7 +224,6 @@ iframe {
     max-width: 312px;
     height: 250px;
     background-color: var(--color1);
-    margin: 0px 16px 0px 16px;
     border-radius: 18px;
     padding-top: 64px;
 }
@@ -684,7 +681,7 @@ iframe {
 .public .container9 .container10 .box3,
 .public .container9 .container10 .box4 {
     display: flex;
-    margin: 20px 6px 32px 6px;
+    margin: 20px 0px 32px 6px;
 }
 
 .public .container9 .container10 .box1 img,
@@ -743,22 +740,20 @@ iframe {
 
 .growthmethod .container11 .container12 .boxes4 {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1014px;
     display: flex;
-    justify-content: center;
-    margin: 10px auto 0px;
+    justify-content: space-between;
+    margin: 42px auto 0px;
 }
 
 .growthmethod .container11 .container12 .boxes4 .box1,
 .growthmethod .container11 .container12 .boxes4 .box2,
 .growthmethod .container11 .container12 .boxes4 .box3 {
     width: 100%;
-    max-width: 334px;
-    height: 219px;
+    max-width: 322px;
     background-color: var(--color1);
-    margin: 32px 12px 0px 12px;
     border-radius: 40px;
-    padding: 50px 16px 0px 32px;
+    padding: 40px 24px 40px 24px;
 }
 
 .growthmethod .container11 .container12 .boxes4 .box1 p,
@@ -791,11 +786,6 @@ iframe {
     margin-top: 41px;
 }
 
-
-
-
-
-
 .growthmethod .container14 {
     background-color: var(--color1);
     padding: 0px 10px 60px 10px;
@@ -809,22 +799,20 @@ iframe {
 
 .growthmethod .container14 .container15 .boxes5 {
     width: 100%;
-    max-width: 1080px;
+    max-width: 1014px;
     display: flex;
-    justify-content: center;
-    margin: 10px auto 0px;
+    justify-content: space-between;
+    margin: 42px auto 0px;
 }
 
 .growthmethod .container14 .container15 .boxes5 .box1,
 .growthmethod .container14 .container15 .boxes5 .box2,
 .growthmethod .container14 .container15 .boxes5 .box3 {
     width: 100%;
-    max-width: 334px;
-    height: 243px;
+    max-width: 322px;
     background-color: var(--color19);
-    margin: 32px 12px 0px 12px;
     border-radius: 40px;
-    padding: 50px 20px 0px 32px;
+    padding: 40px 24px 40px 24px;
 }
 
 .growthmethod .container14 .container15 .boxes5 .box2 {
@@ -920,6 +908,154 @@ footer {
 footer a:hover {
     color: var(--cor8);
 }
+
+@media(max-width: 1023px) {
+    .header .container1 img {
+        max-width: 400px;
+    }
+
+    .header h1 {
+        font-size: 36px;
+    }
+
+    .header p {
+        max-width: 900px;
+    }
+
+    iframe {
+        width: 720px;
+    }
+
+    .buy1 .container2 {
+        padding: 25px 10px 4px 10px;
+    }
+
+    .buy1 .container2 .boxes1 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .buy1 .container2 .boxes1 .box1,
+    .buy1 .container2 .boxes1 .box2,
+    .buy1 .container2 .boxes1 .box3 {
+        margin-bottom: 30px;
+    }
+
+    .calltoaction .container3 {
+        padding: 44px 10px 49px 10px;
+    }
+
+    .method .container4 h2 {
+        font-family: var(--font1);
+        color: var(--color0);
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+    .method .container4 .container5 {
+        width: 100%;
+        max-width: 700px;
+        background-color: var(--color1);
+        margin: 30px auto 0px;
+        text-align: center;
+        padding: 20px 40px 40px 40px;
+    }
+
+    .method .container4 .container5 .svg1 {
+        top: 25px;
+        left: -54px;
+    }
+
+    .method .container4 .container5 .svg2 {
+        left: 66px;
+    }
+
+    .method .container4 .container5 .svg3 {
+        transform: rotate(45deg);
+        top: 25px;
+        left: 185px;
+    }
+
+    .method .container4 .container5 .svg4 {
+        transform: rotate(90deg);
+        top: 295px;
+        right: -170px;
+    }
+
+    .method .container4 .container5 .svg5 {
+        top: 562px;
+        right: -151px;
+    }
+
+    .method .container4 .container5 .svg6 {
+        top: 832px;
+        right: -130px;
+    }
+
+    .method .container4 .container5 .svg7 {
+        top: 837px;
+        left: -28px;
+    }
+
+    .method .container4 .container5 .svg8 {
+        transform: rotate(225deg);
+        top: 834px;
+        left: -184px;
+    }
+
+    .method .container4 .container5 .svg9 {
+        transform: rotate(270deg);
+        top: 562px;
+        left: -208px;
+    }
+
+    .method .container4 .container5 .svg10 {
+        top: 295px;
+        left: -227px;
+    }
+
+    .method .container4 .container5 .boxes2 {
+        max-width: 280px;
+        align-items: center;
+        flex-direction: column;
+        margin: 10px auto 0px;
+        padding: 10px;
+    }
+
+    .method .container4 .container5 .boxes2 .box1,
+    .method .container4 .container5 .boxes2 .box2,
+    .method .container4 .container5 .boxes2 .box3 {
+        /* max-width: 300px;
+        height: 300px; */
+        max-width: 250px;
+        height: 250px;
+        margin: 5px 5px 10px 5px;
+    }
+
+    .method .container4 .container5 .boxes2 h2 {
+        font-family: var(--font1);
+        font-size: 32px;
+        color: var(--color0);
+        line-height: 40px;
+        width: 100%;
+        max-width: 270px;
+        margin-top: 28px;
+    }
+
+
+
+
+
+    .modules .container6 h2.secondh2 {
+        font-size: 50px;
+    }
+
+
+
+}
+
+@media(max-width: 767px) {}
 
 @media(max-width: 539px) {
     footer {
