@@ -63,16 +63,15 @@
     --font1: 'Lato-Bold';
     --font2: 'Lato-Regular';
     --font3: 'NunitoSans-Bold';
-    --font5: 'NunitoSans-Regular';
-    --font6: 'Roboto-Bold';
-    --font10: 'OpenSans-Regular';
+    --font4: 'NunitoSans-Regular';
+    --font5: 'Roboto-Bold';
+    --font6: 'OpenSans-Regular';
 }
 
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    /* outline: 1px solid red; */
     scroll-behavior: smooth;
 }
 
@@ -398,7 +397,7 @@ body {
     outline: 2px solid var(--color4);
     outline-style: dotted;
     border-radius: 10px;
-    padding: 10px 0px 10px 0px;
+    padding: 10px 0px;
 }
 
 .method .container4 .container5 .boxes2 .box1,
@@ -522,7 +521,7 @@ body {
 .modules .container6 .boxes3 .box3 ul li,
 .modules .container6 .boxes3 .box4 ul li,
 .modules .container6 .boxes3 .box5 ul li {
-    font-family: var(--font5);
+    font-family: var(--font4);
     font-size: 18px;
     color: var(--color13);
     margin-top: 20px;
@@ -697,7 +696,7 @@ body {
 
 .growthmethod .container11 .container12 h2,
 .growthmethod .container15 h2 {
-    font-family: var(--font6);
+    font-family: var(--font5);
     font-size: 40px;
     color: var(--color15);
     line-height: 28px;
@@ -751,7 +750,7 @@ body {
 .growthmethod .container11 .container12 .boxes4 .box1 h3,
 .growthmethod .container11 .container12 .boxes4 .box2 h3,
 .growthmethod .container11 .container12 .boxes4 .box3 h3 {
-    font-family: var(--font6);
+    font-family: var(--font5);
     font-size: 18px;
     color: var(--color15);
     text-transform: uppercase;
@@ -813,7 +812,7 @@ body {
 .growthmethod .container14 .container15 .boxes5 .box1 h3,
 .growthmethod .container14 .container15 .boxes5 .box2 h3,
 .growthmethod .container14 .container15 .boxes5 .box3 h3 {
-    font-family: var(--font6);
+    font-family: var(--font5);
     font-size: 18px;
     color: var(--color15);
     text-transform: uppercase;
@@ -839,7 +838,7 @@ body {
 }
 
 .warranty .container16 p {
-    font-family: var(--font10);
+    font-family: var(--font6);
     font-size: 16px;
     color: var(--color21);
     text-align: center;
@@ -918,20 +917,11 @@ footer a:hover {
     }
 
     .method .container4 h2 {
-        font-family: var(--font1);
-        color: var(--color0);
         font-size: 32px;
-        text-align: center;
-        margin-bottom: 15px;
     }
 
     .method .container4 .container5 {
-        width: 100%;
         max-width: 700px;
-        background-color: var(--color1);
-        margin: 30px auto 0px;
-        text-align: center;
-        padding: 20px 40px 40px 40px;
     }
 
     .method .container4 .container5 .svg1 {
@@ -991,7 +981,6 @@ footer a:hover {
         max-width: 280px;
         align-items: center;
         flex-direction: column;
-        margin: 10px auto 0px;
         padding: 10px;
     }
 
@@ -1004,13 +993,9 @@ footer a:hover {
     }
 
     .method .container4 .container5 .boxes2 h2 {
-        font-family: var(--font1);
         font-size: 32px;
-        color: var(--color0);
         line-height: 40px;
-        width: 100%;
         max-width: 270px;
-        margin-top: 28px;
     }
 
     .modules .container6 {
@@ -1210,7 +1195,7 @@ footer a:hover {
 
     .method .container4 .container5 .boxes2 {
         max-width: 200px;
-        padding: 10px 5px 10px 5px;
+        padding: 10px 5px;
     }
 
     .method .container4 .container5 .boxes2 .box1,
