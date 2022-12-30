@@ -132,46 +132,13 @@ body {
     color: var(--color4);
 }
 
-/* .header .container1 iframe {
+.header .container1 iframe {
     width: 100%;
-    max-width: 740px;
-    max-height: 416px;
-    height: 100%;
+    max-width: 560px;
     border-radius: 20px;
     margin: auto;
     display: block;
-} */
-
-.header .container1 iframe {
-    /* width: 100%; */
-    /* width: 100vh; */
-    /* max-width: 740px; */
-    /* max-height: 416px; */
-    /* height: 100vh;
-    border-radius: 20px;
-    margin: auto;
-    display: block; */
-}
-
-/* .header .container1 .container-video {
-    margin: auto;
-    width: 100%;
-    max-width: 740px;
-    height: 100%;
-    max-height: 416px;
-} */
-
-.header .container1 iframe {
-    width: 100%;
-    max-width: 740px;
-    /* max-width: 1120px; */
-    /* width: 100vh; */
-    /* height: 100vh; */
-    /* max-height: 416px; */
-    /* max-height: 630px; */
-    border-radius: 20px;
-    margin: auto;
-    display: block;
+    aspect-ratio: 16/9;
 }
 
 .buy1 .container2 {
@@ -268,7 +235,8 @@ body {
 .calltoaction .container3 ul {
     width: 100%;
     max-width: 600px;
-    margin: 14px auto 25px;
+    margin: 14px 0px 25px 30px;
+    padding-right: 20px;
 }
 
 .calltoaction .container3 ul li {
@@ -930,11 +898,6 @@ footer a:hover {
         max-width: 900px;
     }
 
-    /* 
-    iframe {
-        width: 720px;
-    } */
-
     .buy1 .container2 {
         padding: 25px 10px 4px 10px;
     }
@@ -1080,7 +1043,7 @@ footer a:hover {
     }
 
     .author .container7 .aboutauthor {
-        margin: 30px 0px 0px 0px;
+        margin: 30px 10px 0px 10px;
     }
 
     .buy2 .container8 {
@@ -1143,14 +1106,144 @@ footer a:hover {
     }
 }
 
-@media(max-width: 767px) {}
+@media(max-width: 767px) {
+    .calltoaction .container3 {
+        padding: 44px 20px;
+    }
+
+    .method .container4 h2.secondh2 {
+        font-size: 25px;
+    }
+
+    .method .container4 .container5 p {
+        font-size: 22px;
+    }
+
+    .modules .container6 h2.secondh2 {
+        font-size: 38px;
+    }
+
+    .modules .container6 .rectangle {
+        margin: 60px auto 45px;
+    }
+
+    .calltoaction .container3 ul {
+        width: 100%;
+        max-width: 580px;
+        margin: 14px 0px 25px 20px;
+        padding-right: 10px;
+    }
+
+    .growthmethod .container11 .container12,
+    .growthmethod .container15 {
+        padding: 45px 0px 0px 0px;
+    }
+
+    .growthmethod .container11 .container12 h2,
+    .growthmethod .container15 h2 {
+        font-size: 23px;
+    }
+
+    .growthmethod .container11 .container12 .boxes4 {
+        margin: 30px auto 0px;
+    }
+
+    .growthmethod .container14 .container15 .boxes5 {
+        margin: 30px auto 0px;
+    }
+}
 
 @media(max-width: 539px) {
-    /* iframe {
-        height: 280px;
-    } */
+    .buy1 .container2 a {
+        max-width: 260px;
+    }
 
+    .method .container4 .container5 h1 {
+        font-size: 33px;
+    }
 
+    .method .container4 .container5 p {
+        margin-top: 15px;
+    }
+
+    .method .container4 .container5 .svg1 {
+        left: -13px;
+    }
+
+    .method .container4 .container5 .svg3 {
+        left: 144px;
+    }
+
+    .method .container4 .container5 .svg4 {
+        top: 225px;
+        right: -130px;
+    }
+
+    .method .container4 .container5 .svg5 {
+        top: 420px;
+        right: -111px;
+    }
+
+    .method .container4 .container5 .svg6 {
+        top: 622px;
+        right: -90px;
+    }
+
+    .method .container4 .container5 .svg7 {
+        top: 627px;
+    }
+
+    .method .container4 .container5 .svg8 {
+        top: 623px;
+        left: -144px;
+    }
+
+    .method .container4 .container5 .svg9 {
+        top: 419px;
+        left: -168px;
+    }
+
+    .method .container4 .container5 .svg10 {
+        top: 225px;
+        left: -187px;
+    }
+
+    .method .container4 .container5 .boxes2 {
+        max-width: 200px;
+        padding: 10px 5px 10px 5px;
+    }
+
+    .method .container4 .container5 .boxes2 .box1,
+    .method .container4 .container5 .boxes2 .box2,
+    .method .container4 .container5 .boxes2 .box3 {
+        max-width: 180px;
+        height: 180px;
+    }
+
+    .method .container4 .container5 .boxes2 h2 {
+        font-size: 23px;
+    }
+
+    .modules .container6 .boxes3 .box1,
+    .modules .container6 .boxes3 .box2,
+    .modules .container6 .boxes3 .box3,
+    .modules .container6 .boxes3 .box4,
+    .modules .container6 .boxes3 .box5 {
+        max-width: 270px;
+        margin: 32px 0px 0px 0px;
+    }
+
+    .author .container7 img {
+        max-width: 240px;
+    }
+
+    .buy2 .container8 a {
+        max-width: 260px;
+    }
+
+    .warranty .container16 a {
+        max-width: 260px;
+    }
 
     footer {
         font-size: 10px;
